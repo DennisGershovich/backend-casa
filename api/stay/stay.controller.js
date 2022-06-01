@@ -28,57 +28,42 @@ async function getStayById(req, res) {
 
 
 async function deleteStay(req, res) {
+  var loggedInUser = authService.validateToken(req.cookies.loginToken)
     try {
-        const deletedCount = await stayService.remove(req.params.id)
+        const deletedCount = await stayService.remove(req.params.stayId,loggedInUser)
         if (deletedCount === 1) {
             res.send({ msg: 'Deleted successfully' })
         } else {
-            res.status(400).send({ err: 'Cannot remove review' })
+            res.status(400).send({ err: 'Cannot remove stay' })
         }
     } catch (err) {
-        logger.error('Failed to delete review', err)
-        res.status(500).send({ err: 'Failed to delete review' })
+        logger.error('Failed to delete stay', err)
+        res.status(500).send({ err: 'Failed to delete stay' })
     }
 }
 
 
 async function addStay(req, res) {
-
     var loggedinUser = authService.validateToken(req.cookies.loginToken)
- 
+
     try {
-        var review = req.body
-        review.byUserId = loggedinUser._id
-        review = await stayService.add(review)
+        var stay = req.body
+        stay.host = await userService.getById(loggedinUser._id)
+        const newStay = await stayService.add(stay)
+
+
+        // socketService.broadcast({type: 'review-added', data: review, userId: review.byUserId})
+        // socketService.emitToUser({type: 'review-about-you', data: review, userId: review.aboutUserId})
         
-        // prepare the updated review for sending out
-        review.aboutUser = await userService.getById(review.aboutUserId)
-        
-        // Give the user credit for adding a review
-        // var user = await userService.getById(review.byUserId)
-        // user.score += 10
-        loggedinUser.score += 10
+        // const fullUser = await userService.getById(loggedinUser._id)
+        // socketService.emitTo({type: 'user-updated', data: fullUser, label: fullUser._id})
 
-        loggedinUser = await userService.update(loggedinUser)
-        review.byUser = loggedinUser
-
-        // User info is saved also in the login-token, update it
-        const loginToken = authService.getLoginToken(loggedinUser)
-        res.cookie('loginToken', loginToken)
-
-
-        socketService.broadcast({type: 'review-added', data: review, userId: review.byUserId})
-        socketService.emitToUser({type: 'review-about-you', data: review, userId: review.aboutUserId})
-        
-        const fullUser = await userService.getById(loggedinUser._id)
-        socketService.emitTo({type: 'user-updated', data: fullUser, label: fullUser._id})
-
-        res.send(review)
+        res.send(newStay)
 
     } catch (err) {
         console.log(err)
-        logger.error('Failed to add review', err)
-        res.status(500).send({ err: 'Failed to add review' })
+        logger.error('Failed to add stay', err)
+        res.status(500).send({ err: 'Failed to add stay' })
     }
 }
 
