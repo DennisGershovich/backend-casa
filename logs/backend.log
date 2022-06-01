@@ -379,3 +379,5 @@
 1.6.2022, 11:19:06 - ERROR - while finding user stayId='6295c8dd7920538dd9f27400' | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
 1.6.2022, 11:19:06 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
 1.6.2022, 15:33:42 - INFO - Server is running on port: 3030 
+1.6.2022, 19:03:30 - INFO - Server is running on port: 3030 
+1.6.2022, 19:07:21 - INFO - Server is running on port: 3030 
