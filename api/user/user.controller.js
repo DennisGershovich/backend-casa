@@ -4,7 +4,7 @@ const logger = require('../../services/logger.service')
 
 async function getUser(req, res) {
     try {
-        const user = await userService.getById(req.params.id)
+        const user = await userService.getById(req.params.userId)
         res.send(user)
     } catch (err) {
         logger.error('Failed to get user', err)
@@ -28,7 +28,7 @@ async function getUsers(req, res) {
 
 async function deleteUser(req, res) {
     try {
-        await userService.remove(req.params.id)
+        await userService.remove(req.params.userId)
         res.send({ msg: 'Deleted successfully' })
     } catch (err) {
         logger.error('Failed to delete user', err)

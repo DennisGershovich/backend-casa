@@ -5,12 +5,12 @@ const {addStay, getStays, deleteStay,getStayById,updateStay} = require('./stay.c
 const router = express.Router()
 
 // middleware that is specific to this router
-// router.use(requireAuth)
+router.use(requireAuth)
 
 router.get('/', log, getStays)
 router.get('/:stayId', getStayById)
 router.post('/',  log, requireAuth, addStay)
 router.put('/:stayId', requireAuth , updateStay)
-router.delete('/:id',  requireAuth, deleteStay)
+router.delete('/:stayId',  requireAuth, deleteStay)
 
 module.exports = router
