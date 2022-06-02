@@ -33,7 +33,7 @@ async function query(filterBy = {}) {
 async function getById(userId) {
     try {
         const collection = await dbService.getCollection('user')
-        const user = await collection.findOne({ _id: ObjectId(userId) })
+        var user = await collection.findOne({ _id: ObjectId(userId)})
         delete user.password
         return user
     } catch (err) {
@@ -55,7 +55,7 @@ async function getByUsername(username) {
 async function remove(userId) {
     try {
         const collection = await dbService.getCollection('user')
-        await collection.deleteOne({ _id: ObjectId(userId) })
+        await collection.deleteOne({ _id: ObjectId(userId)})
     } catch (err) {
         logger.error(`cannot remove user ${userId}`, err)
         throw err
@@ -72,7 +72,7 @@ async function update(user) {
             isAdmin:user.isAdmin
         }
         const collection = await dbService.getCollection('user')
-        await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
+        await collection.updateOne({ _id: ObjectId(userToSave._id)}, { $set: userToSave })
         return userToSave
     } catch (err) {
         logger.error(`cannot update user ${user._id}`, err)

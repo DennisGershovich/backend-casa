@@ -49,6 +49,7 @@ async function addStay(req, res) {
     try {
         var stay = req.body
         stay.host = await userService.getById(loggedinUser._id)
+        console.log(stay.host);
         const newStay = await stayService.add(stay)
 
 

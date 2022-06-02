@@ -99,7 +99,7 @@ async function add(order) {
 async function update(orderId) {
   try {
     const collection = await dbService.getCollection('order');
-    collection.updateOne({ _id: order._id }, { $set: { ...order } });
+    collection.updateOne({ _id: ObjectId(order._id) }, { $set: { ...order } });
     return order;
   } catch (err) {
     logger.error(`cannot update order ${orderId}`, err);
