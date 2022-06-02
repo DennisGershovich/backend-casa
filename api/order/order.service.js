@@ -32,13 +32,19 @@ async function query(filterBy = {}) {
         {
           $unwind: "$user",
         },
-      ]).toArray()
-      orders=orders.map(order=>{
-        order.user={_id:order.user._id,fullname:order.user.fullname,imgUrl:order.user.imgUrl}
-        delete order.userId
-        delete order.stayId
-        return order
-      })
+      ])
+      .toArray()
+    orders = orders.map((order) => {
+      order.user = {
+        _id: order.user._id,
+        fullname: order.user.fullname,
+        imgUrl: order.user.imgUrl,
+      }
+      delete order.userId
+      delete order.stayId
+      delete order.hostId
+      return order
+    })
     return orders
   } catch (err) {
     logger.error("cannot find orders", err)
@@ -80,6 +86,7 @@ async function add(order) {
       endDate: order.endDate,
       userId: ObjectId(order.userId),
       stayId: ObjectId(order.stayId),
+      hostId: ObjectId(order.hostId),
       status: "pending",
     }
     const collection = await dbService.getCollection("order")
@@ -105,10 +112,13 @@ async function update(orderId) {
 function _buildCriteria(filterBy) {
   const criteria = {}
   if (filterBy.hostId) {
-    criteria["host._id"] = ObjectId(filterBy.hostId)
+    criteria.hostId = ObjectId(filterBy.hostId)
   }
   if (filterBy.userId) {
-    criteria["user._id"] = ObjectId(filterBy.userId)
+    criteria.userId = ObjectId(filterBy.userId)
+  }
+  if (filterBy.stayId) {
+    criteria.stayId = ObjectId(filterBy.stayId)
   }
   return criteria
 }
