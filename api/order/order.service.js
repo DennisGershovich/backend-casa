@@ -84,7 +84,7 @@ async function add(order) {
     const orderToAdd = {
       startDate: order.startDate,
       endDate: order.endDate,
-      userId: ObjectId(order.userId),
+      userId: ObjectId(order.byUserId),
       stayId: ObjectId(order.stayId),
       hostId: ObjectId(order.hostId),
       status: "pending",
