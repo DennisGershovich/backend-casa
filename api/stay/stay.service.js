@@ -85,7 +85,7 @@ async function update(stay) {
       ...stay,
       _id: ObjectId(stay._id),
     }
-    collection.updateOne({ _id: ObjectId(stay._id) }, { $set: updatedStay })
+    await collection.updateOne({ _id: ObjectId(stay._id) }, { $set: updatedStay })
     return stay
   } catch (err) {
     logger.error(`cannot update stay ${stayId}`, err)
