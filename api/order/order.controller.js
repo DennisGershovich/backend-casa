@@ -27,8 +27,9 @@ async function getOrderById(req, res) {
 }
 
 async function deleteOrder(req, res) {
+  var loggedInUser = authService.validateToken(req.cookies.loginToken)
   try {
-    const deletedCount = await orderService.remove(req.params.id)
+    const deletedCount = await orderService.remove(req.params.orderId,loggedInUser)
     if (deletedCount === 1) {
       res.send({ msg: "Deleted successfully" })
     } else {
@@ -41,13 +42,13 @@ async function deleteOrder(req, res) {
 }
 
 async function addOrder(req, res) {
-  var loggedinUser = authService.validateToken(req.cookies.loginToken)
+  var loggedInUser = authService.validateToken(req.cookies.loginToken)
   try {
     var order = req.body
     const bookedDates = await _getBookedDates(order.stayId)
     console.log(bookedDates);
     const isAvailble = await _checkAvailability(order.startDate,order.endDate,bookedDates)
-    order.byUserId = loggedinUser._id
+    order.byUserId = loggedInUser._id
     order = await orderService.add(order)
 
     // // prepare the updated review for sending out
