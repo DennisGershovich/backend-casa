@@ -115,6 +115,9 @@ function _buildCriteria(filterBy) {
       ],
     })
   }
+  if (filterBy.hostId) {
+    criteria.$and.push({'host._id':ObjectId(filterBy.hostId)})
+  }
   return criteria
 }
 
