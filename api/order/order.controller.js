@@ -7,7 +7,7 @@ const orderService = require("./order.service")
 async function getOrders(req, res) {
   try {
     const orders = await orderService.query(req.query)
-    res.send(orders)
+    res.json(orders)
   } catch (err) {
     logger.error("Cannot get orders", err)
     res.status(500).send({ err: "Failed to get orders" })
@@ -72,7 +72,7 @@ async function addOrder(req, res) {
     // const fullUser = await userService.getById(loggedinUser._id)
     // socketService.emitTo({type: 'user-updated', data: fullUser, label: fullUser._id})
 
-    res.send(order)
+    res.json(order)
   } catch (err) {
     console.log(err)
     logger.error("Failed to add order", err)
