@@ -63,14 +63,12 @@ async function getById(orderId) {
   }
 }
 
-async function remove(orderId) {
+async function remove(orderId,loggedInUser) {
   try {
-    const store = asyncLocalStorage.getStore()
-    const { loggedinUser } = store
     const collection = await dbService.getCollection("order")
     // remove only if user is owner/admin
     const criteria = { _id: ObjectId(orderId) }
-    if (!loggedinUser.isAdmin) criteria.byUserId = ObjectId(loggedinUser._id)
+    criteria.userId = ObjectId(loggedInUser._id)
     const { deletedCount } = await collection.deleteOne(criteria)
     return deletedCount
   } catch (err) {
