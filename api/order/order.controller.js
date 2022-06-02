@@ -49,7 +49,7 @@ async function addOrder(req, res) {
     try {
         var order = req.body
         order.byUserId = loggedinUser._id
-        order = await stayService.add(order)
+        order = await orderService.add(order)
         
         // // prepare the updated review for sending out
         // review.aboutUser = await userService.getById(review.aboutUserId)
