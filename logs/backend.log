@@ -928,3 +928,5 @@
 2.6.2022, 13:19:59 - ERROR - Cannot get stays | MongoError: $and/$or/$nor must be a nonempty array (userId: 62986d5ba7d24616d8b94a4f)
 2.6.2022, 13:20:30 - INFO - Server is running on port: 3030 
 2.6.2022, 13:23:29 - INFO - Server is running on port: 3030 
+2.6.2022, 13:57:21 - INFO - Server is running on port: 3030 
+2.6.2022, 13:58:09 - INFO - Server is running on port: 3030 
