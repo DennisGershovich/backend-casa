@@ -5,7 +5,7 @@ const logger = require('../../services/logger.service')
 async function getUser(req, res) {
     try {
         const user = await userService.getById(req.params.userId)
-        res.send(user)
+        res.json(user)
     } catch (err) {
         logger.error('Failed to get user', err)
         res.status(500).send({ err: 'Failed to get user' })
@@ -14,12 +14,8 @@ async function getUser(req, res) {
 
 async function getUsers(req, res) {
     try {
-        const filterBy = {
-            txt: req.query?.txt || '',
-            minBalance: +req.query?.minBalance || 0
-        }
-        const users = await userService.query(filterBy)
-        res.send(users)
+        const users = await userService.query()
+        res.json(users)
     } catch (err) {
         logger.error('Failed to get users', err)
         res.status(500).send({ err: 'Failed to get users' })

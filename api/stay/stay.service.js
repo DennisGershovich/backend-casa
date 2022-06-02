@@ -32,7 +32,7 @@ async function remove(stayId, loggedInUser) {
     const collection = await dbService.getCollection("stay")
     const criteria = { _id: ObjectId(stayId) }
     if (!loggedInUser.isAdmin) criteria["host._id"] = ObjectId(loggedInUser._id)
-    const { deletedCount } = await collection.deleteOne({ $and: [criteria] })
+    const { deletedCount } = await collection.deleteOne({criteria})
     return deletedCount
   } catch (err) {
     logger.error(`cannot remove review ${stayId}`, err)
@@ -88,7 +88,7 @@ async function update(stay) {
     await collection.updateOne({ _id: ObjectId(stay._id) }, { $set: updatedStay })
     return stay
   } catch (err) {
-    logger.error(`cannot update stay ${stayId}`, err)
+    logger.error(`cannot update stay ${stay._id}`, err)
     throw err
   }
 }

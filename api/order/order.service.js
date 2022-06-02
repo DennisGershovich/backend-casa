@@ -55,7 +55,7 @@ async function query(filterBy = {}) {
 async function getById(orderId) {
   try {
     const collection = await dbService.getCollection("order")
-    const order = collection.findOne({ _id: ObjectId(orderId) })
+    const order = await collection.findOne({ _id: ObjectId(orderId) })
     return order
   } catch (err) {
     logger.error(`while finding order ${orderId}`, err)
@@ -99,7 +99,7 @@ async function add(order) {
 async function update(order) {
   try {
     const orderToSave = {
-            _id: ObjectId(order._id), // needed for the returnd obj
+            _id: ObjectId(order._id), 
             status: order.status,
             startDate: order.startDate,
             endDate: order.endDate,

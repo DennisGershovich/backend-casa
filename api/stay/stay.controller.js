@@ -49,9 +49,7 @@ async function addStay(req, res) {
     try {
         var stay = req.body
         stay.host = await userService.getById(loggedinUser._id)
-        console.log(stay.host);
         const newStay = await stayService.add(stay)
-
 
         // socketService.broadcast({type: 'review-added', data: review, userId: review.byUserId})
         // socketService.emitToUser({type: 'review-about-you', data: review, userId: review.aboutUserId})
@@ -59,7 +57,7 @@ async function addStay(req, res) {
         // const fullUser = await userService.getById(loggedinUser._id)
         // socketService.emitTo({type: 'user-updated', data: fullUser, label: fullUser._id})
 
-        res.send(newStay)
+        res.json(newStay)
 
     } catch (err) {
         console.log(err)

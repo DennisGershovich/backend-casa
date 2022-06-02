@@ -1098,3 +1098,16 @@
 2.6.2022, 19:27:27 - INFO - Server is running on port: 3030 
 2.6.2022, 19:27:29 - INFO - Server is running on port: 3030 
 2.6.2022, 19:27:42 - INFO - Server is running on port: 3030 
+2.6.2022, 20:01:47 - INFO - Server is running on port: 3030 
+2.6.2022, 21:04:38 - INFO - Server is running on port: 3030 
+2.6.2022, 21:05:55 - INFO - Server is running on port: 3030 
+2.6.2022, 21:06:01 - INFO - Server is running on port: 3030 
+2.6.2022, 21:06:35 - INFO - Server is running on port: 3030 
+2.6.2022, 21:06:37 - INFO - Server is running on port: 3030 
+2.6.2022, 21:08:52 - INFO - Server is running on port: 3030 
+2.6.2022, 21:12:39 - DEBUG - auth.service - signup with username: uri, fullname: uri (userId: 62986c65cd8facfb0c4acb60)
+2.6.2022, 21:12:39 - ERROR - Failed to signup Username already taken (userId: 62986c65cd8facfb0c4acb60)
+2.6.2022, 21:13:11 - DEBUG - auth.service - signup with username: gershon, fullname: gershon (userId: 62986c65cd8facfb0c4acb60)
+2.6.2022, 21:13:11 - DEBUG - auth.route - new account created: {"username":"gershon","password":"$2b$10$tbCPboLXc25ByOC6D6HXy.5CzFLRZRCS7Yf1R1M7xmvya/vKMiaFS","fullname":"gershon","createdAt":1654193591593,"_id":"6298fdb75acecc1dace81dde"} (userId: 62986c65cd8facfb0c4acb60)
+2.6.2022, 21:13:11 - DEBUG - auth.service - login with username: gershon (userId: 62986c65cd8facfb0c4acb60)
+2.6.2022, 21:13:11 - INFO - User signup: | {"_id":"6298fdb75acecc1dace81dde","username":"gershon","fullname":"gershon","imgUrl":null,"createdAt":1654193591593} (userId: 62986c65cd8facfb0c4acb60)
