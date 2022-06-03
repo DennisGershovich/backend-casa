@@ -33,8 +33,13 @@ async function deleteUser(req, res) {
 }
 
 async function updateUser(req, res) {
+    var loggedinUser = authService.validateToken(req.cookies.loginToken)
+
     try {
         const user = req.body
+        if(loggedinUser._id!==user._id) {
+           return res.status(500).send({ err: 'Failed to update user' })
+        }
         const savedUser = await userService.update(user)
         res.send(savedUser)
     } catch (err) {

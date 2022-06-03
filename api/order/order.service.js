@@ -84,7 +84,7 @@ async function add(order) {
       endDate: order.endDate,
       userId: ObjectId(order.byUserId),
       stayId: ObjectId(order.stayId),
-      hostId: ObjectId(order.hostId),
+      hostId: order.hostId,
       status: "pending",
     }
     const collection = await dbService.getCollection("order")
@@ -114,9 +114,10 @@ async function update(order) {
 }
 
 function _buildCriteria(filterBy) {
+  console.log(filterBy);
   const criteria = {}
   if (filterBy.hostId) {
-    criteria.hostId = ObjectId(filterBy.hostId)
+    criteria.hostId =filterBy.hostId
   }
   if (filterBy.userId) {
     criteria.userId = ObjectId(filterBy.userId)
