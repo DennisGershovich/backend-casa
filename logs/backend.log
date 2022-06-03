@@ -1111,3 +1111,50 @@
 2.6.2022, 21:13:11 - DEBUG - auth.route - new account created: {"username":"gershon","password":"$2b$10$tbCPboLXc25ByOC6D6HXy.5CzFLRZRCS7Yf1R1M7xmvya/vKMiaFS","fullname":"gershon","createdAt":1654193591593,"_id":"6298fdb75acecc1dace81dde"} (userId: 62986c65cd8facfb0c4acb60)
 2.6.2022, 21:13:11 - DEBUG - auth.service - login with username: gershon (userId: 62986c65cd8facfb0c4acb60)
 2.6.2022, 21:13:11 - INFO - User signup: | {"_id":"6298fdb75acecc1dace81dde","username":"gershon","fullname":"gershon","imgUrl":null,"createdAt":1654193591593} (userId: 62986c65cd8facfb0c4acb60)
+3.6.2022, 8:04:42 - INFO - Server is running on port: 3030 
+3.6.2022, 8:09:37 - INFO - Server is running on port: 3030 
+3.6.2022, 8:09:47 - INFO - Server is running on port: 3030 
+3.6.2022, 10:08:38 - DEBUG - auth.service - login with username: Uri 
+3.6.2022, 10:08:39 - ERROR - Failed to Login Invalid username or password 
+3.6.2022, 10:08:47 - DEBUG - auth.service - login with username: Uri 
+3.6.2022, 10:08:48 - ERROR - Failed to Login Invalid username or password 
+3.6.2022, 10:09:24 - DEBUG - auth.service - login with username: Uri 
+3.6.2022, 10:09:25 - ERROR - Failed to Login Invalid username or password 
+3.6.2022, 10:09:36 - DEBUG - auth.service - signup with username: gershon, fullname: gershon 
+3.6.2022, 10:09:36 - ERROR - Failed to signup Username already taken 
+3.6.2022, 10:09:45 - DEBUG - auth.service - login with username: gershon 
+3.6.2022, 10:09:45 - INFO - User login:  | {"_id":"6298fdb75acecc1dace81dde","username":"gershon","fullname":"gershon","imgUrl":null,"createdAt":1654193591593} 
+3.6.2022, 10:49:13 - INFO - Server is running on port: 3030 
+3.6.2022, 10:49:14 - INFO - Server is running on port: 3030 
+3.6.2022, 10:49:19 - INFO - Server is running on port: 3030 
+3.6.2022, 10:49:53 - INFO - Server is running on port: 3030 
+3.6.2022, 10:49:58 - INFO - Server is running on port: 3030 
+3.6.2022, 10:50:00 - INFO - Server is running on port: 3030 
+3.6.2022, 10:54:01 - INFO - Server is running on port: 3030 
+3.6.2022, 10:55:36 - INFO - Server is running on port: 3030 
+3.6.2022, 11:25:58 - DEBUG - auth.service - signup with username: uri, fullname: uri uri 
+3.6.2022, 11:25:59 - DEBUG - auth.route - new account created: {"username":"uri","password":"$2b$10$Zas3imqSeHHqK8mPzODF8.ReDx7ojKRON./wfeSlgkZe3GlTpm0uq","fullname":"uri uri","createdAt":1654244759056,"_id":"6299c5976b557725088e8861"} 
+3.6.2022, 11:25:59 - DEBUG - auth.service - login with username: uri 
+3.6.2022, 11:25:59 - INFO - User signup: | {"_id":"6299c5976b557725088e8861","username":"uri","fullname":"uri uri","imgUrl":null,"createdAt":1654244759056} 
+3.6.2022, 11:26:39 - DEBUG - auth.service - login with username: uri 
+3.6.2022, 11:26:40 - INFO - User login:  | {"_id":"6299c5976b557725088e8861","username":"uri","fullname":"uri uri","imgUrl":null,"createdAt":1654244759056} 
+3.6.2022, 11:30:28 - DEBUG - auth.service - login with username: uri 
+3.6.2022, 11:30:29 - INFO - User login:  | {"_id":"6299c5976b557725088e8861","username":"uri","fullname":"uri uri","imgUrl":null,"createdAt":1654244759056} 
+3.6.2022, 13:07:12 - INFO - Server is running on port: 3030 
+3.6.2022, 13:12:45 - DEBUG - auth.service - login with username: uri 
+3.6.2022, 13:12:45 - INFO - User login:  | {"_id":"6299c5976b557725088e8861","username":"uri","fullname":"uri uri","imgUrl":null,"createdAt":1654244759056} 
+3.6.2022, 13:16:39 - ERROR - cannot insert order | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+3.6.2022, 13:16:39 - ERROR - Failed to add order | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+3.6.2022, 13:17:26 - INFO - Server is running on port: 3030 
+3.6.2022, 13:17:34 - INFO - Server is running on port: 3030 
+3.6.2022, 13:19:16 - INFO - Server is running on port: 3030 
+3.6.2022, 13:25:50 - ERROR - Failed to add order | not availble 
+3.6.2022, 13:26:30 - INFO - Server is running on port: 3030 
+3.6.2022, 13:26:56 - INFO - Server is running on port: 3030 
+3.6.2022, 13:29:49 - INFO - Server is running on port: 3030 
+3.6.2022, 13:36:41 - INFO - Server is running on port: 3030 
+3.6.2022, 13:37:12 - ERROR - cannot find orders | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+3.6.2022, 13:37:12 - ERROR - Cannot get orders | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+3.6.2022, 13:45:04 - INFO - Server is running on port: 3030 
+3.6.2022, 13:50:56 - ERROR - Failed to get order | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+3.6.2022, 13:50:56 - ERROR - while finding order 1 | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
