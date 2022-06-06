@@ -67,7 +67,7 @@ async function addOrder(req, res) {
     // res.cookie('loginToken', loginToken)
 
     // socketService.broadcast({type: 'review-added', data: review, userId: review.byUserId})
-    // socketService.emitToUser({type: 'review-about-you', data: review, userId: review.aboutUserId})
+    socketService.emitToUser({type: 'new-order', data: order, userId: order.hostId})
 
     // const fullUser = await userService.getById(loggedinUser._id)
     // socketService.emitTo({type: 'user-updated', data: fullUser, label: fullUser._id})

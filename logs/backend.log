@@ -1158,3 +1158,360 @@
 3.6.2022, 13:45:04 - INFO - Server is running on port: 3030 
 3.6.2022, 13:50:56 - ERROR - Failed to get order | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
 3.6.2022, 13:50:56 - ERROR - while finding order 1 | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+5.6.2022, 21:37:37 - INFO - Server is running on port: 3030 
+5.6.2022, 21:43:45 - DEBUG - auth.service - signup with username: uri, fullname: uri uri 
+5.6.2022, 21:43:46 - ERROR - Failed to signup Username already taken 
+5.6.2022, 21:43:59 - DEBUG - auth.service - login with username: uri 
+5.6.2022, 21:44:00 - INFO - User login:  | {"_id":"6299c5976b557725088e8861","username":"uri","fullname":"uri uri","imgUrl":null,"createdAt":1654244759056} 
+6.6.2022, 9:12:30 - INFO - Server is running on port: 3030 
+6.6.2022, 10:50:22 - DEBUG - auth.service - login with username: uri 
+6.6.2022, 10:50:23 - INFO - User login:  | {"_id":"6299c5976b557725088e8861","username":"uri","fullname":"uri uri","imgUrl":null,"createdAt":1654244759056} 
+6.6.2022, 11:17:49 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:17:50 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:18:11 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:18:12 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:18:43 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:18:43 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:19:38 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:19:38 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:20:03 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:20:03 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:20:04 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:20:04 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:20:07 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:20:07 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:20:09 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:20:09 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:20:30 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:20:31 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:20:31 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:20:31 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:20:32 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:20:32 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:20:32 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:20:32 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:20:32 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:20:33 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:21:39 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:21:39 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:22:03 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:22:03 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:22:44 - DEBUG - auth.service - signup with username: Uri, fullname: Uri 
+6.6.2022, 11:22:44 - ERROR - Failed to signup Username already taken 
+6.6.2022, 11:23:30 - DEBUG - auth.service - signup with username: Uri, fullname: Uri Geller 
+6.6.2022, 11:23:30 - DEBUG - auth.route - new account created: {"username":"Uri","password":"$2b$10$ZRddfuJKH45uw2smWnnmSeU3YYApqJyAUUMP9U7lgidb3mI0IOBE6","fullname":"Uri Geller","createdAt":1654503810849,"_id":"629db982a4b04901e0627e66"} 
+6.6.2022, 11:23:30 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 11:23:31 - INFO - User signup: | {"_id":"629db982a4b04901e0627e66","username":"Uri","fullname":"Uri Geller","imgUrl":null,"createdAt":1654503810849} 
+6.6.2022, 11:24:59 - INFO - Server is running on port: 3030 
+6.6.2022, 11:25:47 - DEBUG - auth.service - signup with username: Uri, fullname: Uri Geller 
+6.6.2022, 11:25:49 - ERROR - Failed to signup Username already taken 
+6.6.2022, 11:27:12 - INFO - Server is running on port: 3030 
+6.6.2022, 11:27:20 - INFO - Server is running on port: 3030 
+6.6.2022, 11:27:29 - INFO - Server is running on port: 3030 
+6.6.2022, 11:30:08 - DEBUG - auth.service - signup with username: uri, fullname: uri 
+6.6.2022, 11:30:08 - DEBUG - auth.route - new account created: {"username":"uri","password":"$2b$10$Wq0mfyCv2BWUzl9SEey9GuiKAji.fHq0D3e.4TCIDQgDGhiHfbWCe","fullname":"uri","createdAt":1654504208732,"_id":"629dbb10fadd2d305454c391"} 
+6.6.2022, 11:30:08 - DEBUG - auth.service - login with username: uri 
+6.6.2022, 11:30:09 - INFO - User signup: | {"_id":"629dbb10fadd2d305454c391","username":"uri","fullname":"uri","imgUrl":null,"createdAt":1654504208732} 
+6.6.2022, 11:30:44 - DEBUG - auth.service - login with username: uri 
+6.6.2022, 11:30:44 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:31:01 - DEBUG - auth.service - login with username: uri 
+6.6.2022, 11:31:01 - ERROR - Failed to Login Invalid username or password 
+6.6.2022, 11:32:32 - DEBUG - auth.service - login with username: uri 
+6.6.2022, 11:32:32 - INFO - User login:  | {"_id":"629dbb10fadd2d305454c391","username":"uri","fullname":"uri","imgUrl":null,"createdAt":1654504208732} 
+6.6.2022, 16:56:51 - INFO - Server is running on port: 3030 
+6.6.2022, 17:46:14 - INFO - Server is running on port: 3030 
+6.6.2022, 17:46:20 - INFO - Server is running on port: 3030 
+6.6.2022, 17:46:24 - INFO - Server is running on port: 3030 
+6.6.2022, 17:46:31 - INFO - Server is running on port: 3030 
+6.6.2022, 17:46:43 - INFO - Server is running on port: 3030 
+6.6.2022, 17:46:45 - INFO - Server is running on port: 3030 
+6.6.2022, 18:00:21 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 18:00:22 - INFO - User login:  | {"_id":"629db982a4b04901e0627e66","username":"Uri","fullname":"Uri Geller","imgUrl":"https://res.cloudinary.com/dfu7ljnqq/image/upload/v1654102324/uri_u4ntti.jpg","createdAt":1654503810849,"isAdmin":null} 
+6.6.2022, 18:05:34 - INFO - New connected socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 18:05:42 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 18:05:43 - INFO - User login:  | {"_id":"629db982a4b04901e0627e66","username":"Uri","fullname":"Uri Geller","imgUrl":"https://res.cloudinary.com/dfu7ljnqq/image/upload/v1654102324/uri_u4ntti.jpg","createdAt":1654503810849,"isAdmin":null} 
+6.6.2022, 18:59:24 - INFO - New connected socket [id: yEk73Cq2Cfh5gfC2AAAD] 
+6.6.2022, 18:59:32 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 18:59:32 - INFO - User login:  | {"_id":"629db982a4b04901e0627e66","username":"Uri","fullname":"Uri Geller","imgUrl":"https://res.cloudinary.com/dfu7ljnqq/image/upload/v1654102324/uri_u4ntti.jpg","createdAt":1654503810849,"isAdmin":null} 
+6.6.2022, 18:59:37 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 18:59:37 - INFO - New connected socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 18:59:37 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 18:59:38 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 18:59:38 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 18:59:41 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 18:59:45 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 18:59:48 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 18:59:52 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 19:00:02 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 19:00:29 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 19:01:13 - ERROR - Failed to add order | not availble 
+6.6.2022, 19:01:22 - ERROR - Failed to add order | not availble 
+6.6.2022, 19:01:29 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 19:02:09 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 19:05:56 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 19:05:58 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 19:06:02 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 19:06:03 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 19:06:03 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 19:06:09 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 19:06:09 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 19:06:24 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 19:06:24 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 19:08:09 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 19:08:09 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 19:08:18 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 19:08:18 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 19:08:42 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 19:08:43 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 19:08:45 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 19:08:46 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9As7E0xM-dEi3rrSAAAF] 
+6.6.2022, 19:08:53 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: hUdh4fOdqnUe-J2DAAAB] 
+6.6.2022, 19:10:19 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:10:21 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:10:24 - INFO - New connected socket [id: aLomt0Ns69tbZ8DCAAAH] 
+6.6.2022, 19:10:24 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: aLomt0Ns69tbZ8DCAAAH] 
+6.6.2022, 19:10:24 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: aLomt0Ns69tbZ8DCAAAH] 
+6.6.2022, 19:10:24 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: aLomt0Ns69tbZ8DCAAAH] 
+6.6.2022, 19:10:25 - INFO - New connected socket [id: Wh0prkVzLR3HC33NAAAJ] 
+6.6.2022, 19:10:25 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Wh0prkVzLR3HC33NAAAJ] 
+6.6.2022, 19:10:25 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Wh0prkVzLR3HC33NAAAJ] 
+6.6.2022, 19:10:25 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Wh0prkVzLR3HC33NAAAJ] 
+6.6.2022, 19:10:27 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Wh0prkVzLR3HC33NAAAJ] 
+6.6.2022, 19:10:32 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Wh0prkVzLR3HC33NAAAJ] 
+6.6.2022, 19:10:38 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: aLomt0Ns69tbZ8DCAAAH] 
+6.6.2022, 19:12:50 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Wh0prkVzLR3HC33NAAAJ] 
+6.6.2022, 19:12:50 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: aLomt0Ns69tbZ8DCAAAH] 
+6.6.2022, 19:13:08 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Wh0prkVzLR3HC33NAAAJ] 
+6.6.2022, 19:13:08 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: aLomt0Ns69tbZ8DCAAAH] 
+6.6.2022, 19:13:09 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: aLomt0Ns69tbZ8DCAAAH] 
+6.6.2022, 19:13:13 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Wh0prkVzLR3HC33NAAAJ] 
+6.6.2022, 19:13:28 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Wh0prkVzLR3HC33NAAAJ] 
+6.6.2022, 19:13:28 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: aLomt0Ns69tbZ8DCAAAH] 
+6.6.2022, 19:14:01 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Wh0prkVzLR3HC33NAAAJ] 
+6.6.2022, 19:14:01 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: aLomt0Ns69tbZ8DCAAAH] 
+6.6.2022, 19:14:24 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:14:25 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:14:29 - INFO - New connected socket [id: 5k7in1Hd5mkjxqwTAAAL] 
+6.6.2022, 19:14:29 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 5k7in1Hd5mkjxqwTAAAL] 
+6.6.2022, 19:14:29 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 5k7in1Hd5mkjxqwTAAAL] 
+6.6.2022, 19:14:30 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 5k7in1Hd5mkjxqwTAAAL] 
+6.6.2022, 19:14:30 - INFO - New connected socket [id: xGUFC7VatCEsJ-67AAAN] 
+6.6.2022, 19:14:33 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: xGUFC7VatCEsJ-67AAAN] 
+6.6.2022, 19:14:33 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:14:34 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: xGUFC7VatCEsJ-67AAAN] 
+6.6.2022, 19:14:34 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: xGUFC7VatCEsJ-67AAAN] 
+6.6.2022, 19:14:35 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:14:37 - INFO - New connected socket [id: 1VwTEIK4lRV0h4cIAAAP] 
+6.6.2022, 19:14:37 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 1VwTEIK4lRV0h4cIAAAP] 
+6.6.2022, 19:14:37 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 1VwTEIK4lRV0h4cIAAAP] 
+6.6.2022, 19:14:38 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 1VwTEIK4lRV0h4cIAAAP] 
+6.6.2022, 19:14:39 - INFO - New connected socket [id: Lv3Ma5fSI4D0jdeLAAAR] 
+6.6.2022, 19:14:39 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Lv3Ma5fSI4D0jdeLAAAR] 
+6.6.2022, 19:14:39 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Lv3Ma5fSI4D0jdeLAAAR] 
+6.6.2022, 19:14:39 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Lv3Ma5fSI4D0jdeLAAAR] 
+6.6.2022, 19:14:53 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:14:55 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:15:24 - INFO - New connected socket [id: 1MwYmtHD7YxI91GjAAAT] 
+6.6.2022, 19:15:25 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 1MwYmtHD7YxI91GjAAAT] 
+6.6.2022, 19:15:25 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 1MwYmtHD7YxI91GjAAAT] 
+6.6.2022, 19:15:25 - INFO - New connected socket [id: ZQafSCRuZUCqTG_lAAAV] 
+6.6.2022, 19:15:25 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:15:25 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: ZQafSCRuZUCqTG_lAAAV] 
+6.6.2022, 19:15:26 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: ZQafSCRuZUCqTG_lAAAV] 
+6.6.2022, 19:15:26 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: ZQafSCRuZUCqTG_lAAAV] 
+6.6.2022, 19:15:26 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:15:32 - INFO - New connected socket [id: 07QpUWdffUutv6wLAAAX] 
+6.6.2022, 19:15:32 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 07QpUWdffUutv6wLAAAX] 
+6.6.2022, 19:15:32 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:15:33 - INFO - New connected socket [id: sDxfC634788GpWCnAAAZ] 
+6.6.2022, 19:15:33 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: sDxfC634788GpWCnAAAZ] 
+6.6.2022, 19:15:35 - INFO - New connected socket [id: FWpUmf5DppPF64N3AAAb] 
+6.6.2022, 19:15:35 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: FWpUmf5DppPF64N3AAAb] 
+6.6.2022, 19:15:35 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: FWpUmf5DppPF64N3AAAb] 
+6.6.2022, 19:15:36 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: FWpUmf5DppPF64N3AAAb] 
+6.6.2022, 19:15:36 - INFO - New connected socket [id: 9EP_4_oCvcEl_lsvAAAd] 
+6.6.2022, 19:15:36 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9EP_4_oCvcEl_lsvAAAd] 
+6.6.2022, 19:15:36 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9EP_4_oCvcEl_lsvAAAd] 
+6.6.2022, 19:15:37 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 9EP_4_oCvcEl_lsvAAAd] 
+6.6.2022, 19:16:05 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:16:05 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:16:11 - INFO - New connected socket [id: UZYPD3Ns62tfjC5LAAAf] 
+6.6.2022, 19:16:11 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: UZYPD3Ns62tfjC5LAAAf] 
+6.6.2022, 19:16:11 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:16:12 - INFO - New connected socket [id: Pf97nE17ujpcCXctAAAh] 
+6.6.2022, 19:16:13 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Pf97nE17ujpcCXctAAAh] 
+6.6.2022, 19:16:13 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Pf97nE17ujpcCXctAAAh] 
+6.6.2022, 19:16:13 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: Pf97nE17ujpcCXctAAAh] 
+6.6.2022, 19:16:13 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:16:17 - INFO - New connected socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:16:17 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:16:18 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:16:18 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:16:19 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:16:21 - INFO - New connected socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:16:21 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:16:21 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:16:21 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:16:22 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:16:23 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:17:15 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:17:16 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:17:16 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:17:22 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:17:22 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:17:34 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:17:34 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:18:03 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:18:03 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:18:08 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:18:08 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:19:02 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:19:02 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:19:15 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: k0VHNlwgD-xw3Px8AAAl] 
+6.6.2022, 19:19:16 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:19:31 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:19:33 - INFO - New connected socket [id: 7zIUBFHKlpQcykSbAAAn] 
+6.6.2022, 19:19:34 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 7zIUBFHKlpQcykSbAAAn] 
+6.6.2022, 19:19:34 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 7zIUBFHKlpQcykSbAAAn] 
+6.6.2022, 19:19:34 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 7zIUBFHKlpQcykSbAAAn] 
+6.6.2022, 19:19:52 - ERROR - Failed to add order | not availble 
+6.6.2022, 19:19:58 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:20:11 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:20:13 - INFO - New connected socket [id: ZrsatThC6hrG861HAAAp] 
+6.6.2022, 19:20:13 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: ZrsatThC6hrG861HAAAp] 
+6.6.2022, 19:20:13 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: ZrsatThC6hrG861HAAAp] 
+6.6.2022, 19:20:13 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: ZrsatThC6hrG861HAAAp] 
+6.6.2022, 19:21:24 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:21:26 - INFO - New connected socket [id: fhSwz4kNP2fsD2z6AAAr] 
+6.6.2022, 19:21:26 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: fhSwz4kNP2fsD2z6AAAr] 
+6.6.2022, 19:21:26 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: fhSwz4kNP2fsD2z6AAAr] 
+6.6.2022, 19:21:26 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: fhSwz4kNP2fsD2z6AAAr] 
+6.6.2022, 19:21:36 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:21:53 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: fhSwz4kNP2fsD2z6AAAr] 
+6.6.2022, 19:21:59 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: fhSwz4kNP2fsD2z6AAAr] 
+6.6.2022, 19:22:07 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:22:09 - INFO - New connected socket [id: kZsinusg7gRulSqOAAAt] 
+6.6.2022, 19:22:13 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:22:15 - INFO - New connected socket [id: xFFWJD2trrIRJXrHAAAv] 
+6.6.2022, 19:22:46 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:23:06 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:23:12 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:23:15 - INFO - New connected socket [id: 6fTn6payOXEOnrDiAAAx] 
+6.6.2022, 19:23:22 - DEBUG - auth.service - login with username: Uri 
+6.6.2022, 19:23:23 - INFO - User login:  | {"_id":"629db982a4b04901e0627e66","username":"Uri","fullname":"Uri Geller","imgUrl":"https://res.cloudinary.com/dfu7ljnqq/image/upload/v1654102324/uri_u4ntti.jpg","createdAt":1654503810849,"isAdmin":null} 
+6.6.2022, 19:23:28 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:23:30 - INFO - New connected socket [id: 7y44bUem_5yzcPK6AAAz] 
+6.6.2022, 19:23:30 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 7y44bUem_5yzcPK6AAAz] 
+6.6.2022, 19:23:30 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 7y44bUem_5yzcPK6AAAz] 
+6.6.2022, 19:23:30 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 7y44bUem_5yzcPK6AAAz] 
+6.6.2022, 19:23:38 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:23:44 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:23:45 - INFO - New connected socket [id: vpkz2gGOyq0vY7vjAAA1] 
+6.6.2022, 19:23:45 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: vpkz2gGOyq0vY7vjAAA1] 
+6.6.2022, 19:23:45 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: vpkz2gGOyq0vY7vjAAA1] 
+6.6.2022, 19:23:45 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: vpkz2gGOyq0vY7vjAAA1] 
+6.6.2022, 19:24:42 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:24:42 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: vpkz2gGOyq0vY7vjAAA1] 
+6.6.2022, 19:24:42 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: vpkz2gGOyq0vY7vjAAA1] 
+6.6.2022, 19:24:42 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:24:42 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:24:44 - ERROR - Failed to add order | not availble 
+6.6.2022, 19:24:50 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:25:02 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:25:04 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:25:08 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:25:17 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:25:19 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:25:28 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:25:31 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:25:37 - ERROR - Failed to add order | not availble 
+6.6.2022, 19:25:43 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:25:50 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: vpkz2gGOyq0vY7vjAAA1] 
+6.6.2022, 19:26:53 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: vpkz2gGOyq0vY7vjAAA1] 
+6.6.2022, 19:26:58 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:27:01 - INFO - New connected socket [id: KyHTRc_f8X_3g8cNAAA3] 
+6.6.2022, 19:27:01 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: KyHTRc_f8X_3g8cNAAA3] 
+6.6.2022, 19:27:01 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: KyHTRc_f8X_3g8cNAAA3] 
+6.6.2022, 19:27:01 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: KyHTRc_f8X_3g8cNAAA3] 
+6.6.2022, 19:27:05 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:27:09 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: KyHTRc_f8X_3g8cNAAA3] 
+6.6.2022, 19:28:15 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: KyHTRc_f8X_3g8cNAAA3] 
+6.6.2022, 19:28:15 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: KyHTRc_f8X_3g8cNAAA3] 
+6.6.2022, 19:28:30 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:28:33 - INFO - New connected socket [id: 2dEjvYp_tOYRfgbbAAA5] 
+6.6.2022, 19:28:33 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 2dEjvYp_tOYRfgbbAAA5] 
+6.6.2022, 19:28:33 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 2dEjvYp_tOYRfgbbAAA5] 
+6.6.2022, 19:28:33 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 2dEjvYp_tOYRfgbbAAA5] 
+6.6.2022, 19:28:51 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 2dEjvYp_tOYRfgbbAAA5] 
+6.6.2022, 19:28:51 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 2dEjvYp_tOYRfgbbAAA5] 
+6.6.2022, 19:28:55 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:28:58 - INFO - New connected socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:28:58 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:28:58 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:28:58 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:29:10 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:29:10 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:31:31 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:31:31 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:31:49 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:31:49 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:32:51 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:32:51 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:33:07 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:33:45 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:33:46 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:33:50 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:33:55 - INFO - Emiting event: new-order to user: 629db982a4b04901e0627e66 socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:35:24 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:35:24 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:35:38 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:35:38 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:35:44 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:35:44 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:35:44 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:35:44 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:36:02 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:36:03 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: eF6OmX7_xI2WNqhgAAAj] 
+6.6.2022, 19:36:03 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:36:10 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:36:18 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:36:22 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:36:25 - INFO - New connected socket [id: 89Kr8P-EwUnwflLeAAA9] 
+6.6.2022, 19:36:25 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 89Kr8P-EwUnwflLeAAA9] 
+6.6.2022, 19:36:56 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:37:11 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:37:11 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:37:11 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:37:11 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: X9_pQR5zR04XLSOIAAA7] 
+6.6.2022, 19:37:11 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 89Kr8P-EwUnwflLeAAA9] 
+6.6.2022, 19:37:11 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 89Kr8P-EwUnwflLeAAA9] 
+6.6.2022, 19:37:11 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: 89Kr8P-EwUnwflLeAAA9] 
+6.6.2022, 19:40:24 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:40:24 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:40:27 - INFO - New connected socket [id: aUOXGOpAiROssDBrAAA_] 
+6.6.2022, 19:40:27 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: aUOXGOpAiROssDBrAAA_] 
+6.6.2022, 19:40:27 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: aUOXGOpAiROssDBrAAA_] 
+6.6.2022, 19:40:29 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: aUOXGOpAiROssDBrAAA_] 
+6.6.2022, 19:40:30 - INFO - New connected socket [id: NYhwKlY2mXTZMyBmAABB] 
+6.6.2022, 19:40:30 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: NYhwKlY2mXTZMyBmAABB] 
+6.6.2022, 19:40:30 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: NYhwKlY2mXTZMyBmAABB] 
+6.6.2022, 19:40:30 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: NYhwKlY2mXTZMyBmAABB] 
+6.6.2022, 19:41:11 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:41:11 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:41:13 - INFO - New connected socket [id: jpsTrbQl2TlfQBwMAABD] 
+6.6.2022, 19:41:13 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: jpsTrbQl2TlfQBwMAABD] 
+6.6.2022, 19:41:13 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: jpsTrbQl2TlfQBwMAABD] 
+6.6.2022, 19:41:14 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: jpsTrbQl2TlfQBwMAABD] 
+6.6.2022, 19:41:14 - INFO - New connected socket [id: frQhOa8t_ln1WIdnAABF] 
+6.6.2022, 19:41:15 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: frQhOa8t_ln1WIdnAABF] 
+6.6.2022, 19:41:15 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: frQhOa8t_ln1WIdnAABF] 
+6.6.2022, 19:41:15 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: frQhOa8t_ln1WIdnAABF] 
+6.6.2022, 19:45:27 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: jpsTrbQl2TlfQBwMAABD] 
+6.6.2022, 19:45:29 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: jpsTrbQl2TlfQBwMAABD] 
+6.6.2022, 19:45:29 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: frQhOa8t_ln1WIdnAABF] 
+6.6.2022, 19:45:50 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: frQhOa8t_ln1WIdnAABF] 
+6.6.2022, 19:45:50 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: jpsTrbQl2TlfQBwMAABD] 
+6.6.2022, 19:46:06 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: jpsTrbQl2TlfQBwMAABD] 
+6.6.2022, 19:46:06 - INFO - Setting socket.userId = 629db982a4b04901e0627e66 for socket [id: frQhOa8t_ln1WIdnAABF] 
+6.6.2022, 19:48:06 - INFO - Socket disconnected [id: undefined] 
+6.6.2022, 19:48:10 - INFO - Socket disconnected [id: undefined] 
